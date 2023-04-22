@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family:'Times New Roman', Times, serif;
+font-size:1em;
+/*Medidas Absolutas
+cm, mm,in,px,pt,pc
+
+Medidas Relativas
+em,ex,rem,vw,vh,%
+16px geralmente = 1em */
+
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+
+    /*condensar todas essas fontes: shorthand font, porém precisa seeguir a ordem.
+    font-style->font-weight->font-size->font-family */
+    font: italic bolder 3em arial
+}

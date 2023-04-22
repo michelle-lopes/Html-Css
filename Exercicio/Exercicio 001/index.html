@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--como colocar icone do site-->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Meu primeiro exercício</title>
+</head>
+<body>
+  <h1>Olá, Mundo!</h1>  
+  <!--LESS THAN = &lt (<) / GREATER THAN = &gt (>) quando precisar citar os sinais de maior e menor -->
+  <p> Para quebrar paragrafo como esse usa-se <br> só assim quebrar o paragrafo.</p>
+
+  <p>Adicionando simbolos especiais:</p>
+  &reg;&copy;&trade;
+
+  <!--Como adicionar emoji: abrir site emojipedia copiar o codepoints mais os simbolos &#x -->
+  <p>Emoji
+    &#x1f60a;
+    &#x1f436;
+  </p>
+
+  <!--Como colocar imagem:-->
+  <img src="PNG.png" alt="Logo Html 5">
+  <!--como colar imagem usando url: copia e cola o url so site copiando o endereço da imagem-->
+  <img src="https://i0.wp.com/devkico.itexto.com.br/wp-content/uploads/2017/08/logotipo.png?resize=350%2C200&ssl=1" alt="Javascript">
+
+  <!--Como colocar negrito e italico-->
+<h2> Inserir negrito nas frases</h2>
+  <p> Temos duas oçoes para colocar negrito <b> a primeira é com a tag B</b>  
+    E a segunda é <strong> usando a palavra STRONG</strong>
+  </p>
+<h2>Inserir itálico nas frases</h2>
+  <p> Há também uma forma de deixar italico <i> utilizando a letra  I</i>
+    Outra forma de deixar italico <em> é utilizar a semantica EM</em>
+  </p>
+  <h2>Texto marcado</h2>
+  <P> Utilizando a tag <mark> MARK para destacar a frase</mark>
+  </P>
+
+  <h2> Texto grande e pequeno</h2>
+  <p> adicionar um texto grande <big> é so colocar a tag BIG</big> </p>
+  <p> Para adicionar um texto pequeno ,<small> é so adicionar a palavra SMALL</small>
+  </p>
+
+  <h2> Para deletar ou riscar as palavras </h2>
+  <p>Utiliza a tag <del> para riscar a palavra ou frase</del></p>
+
+  <h2>Texto inserido</h2>
+  <p> Podemos marcar com a tag <ins> INS um texto como inserido</ins> para dar enfase e indicar que ele foi adicionado </p>
+
+  <h2> Texto sobrescrito</h2>
+  <p> para inserir algo do tipo x20+3 utiliza a tag SUP. x <sup>20</sup> +3</p>
+
+  <h2>Texto subescrito</h2>
+  <p> Para inserir coisas do tipo H2O utiliza a tag SUB. H<sub>2</sub>O </p>
+
+  <h1>Outras formatações</h1>
+  <h2>Código-fonte / pré formataçao</h2>
+  <p>O comando CODE <code>document.getElement@/Id('teste')</code> é escrito em linguagem JavaScript</p>
+
+  <pre>
+    <code> 
+      num = int(input('Digite um número'))
+      if num % 2**0;
+      </code>
+  </pre>
+<!--Para alinhar os codigo na liguagem python utiliza-sr as tag's CODE e Pre-->
+<h2>Citaçoes</h2>
+<p>Como dizia o pai de um amigo: <q>o computador é um burro rápido. </q> Coloca-se a tag Q para inserir aspas 
+</p>
+<h2> Citações completas</h2>
+<p>Segundo Jeff em seu livro tal:
+  <blockquote cite="inserir o link da citaçao">
+    Utiliza a tag BLOCKQUOTE para inserir uma citação maior. Para colocar o link do livro ou site, utiliza a  tag CITE.
+  </blockquote>
+</p>
+
+<h2>Abreviações</h2>
+<P>Siginificado  <abbr title=" coloca o significado aqui"> Css</abbr> Utiliza as tags ABBR e TITLE. </P>
+</body>
+
+<h1>Listas</h1>
+<h2>Listas ordenadas</h2>
+  <ol>
+    <li>Acordar</li>
+    <li>ligar</li>
+    <li>estudar</li>
+  </ol>
+<!--Para alterar a numeraçao da ordem e colocar o alfabeto ou algarismo romano é so colocar a tag TYPE -->
+
+
+<h2>Lista nao ordenada</h2>
+<ul>
+  <li>arroz</li>
+  <li>feijao</li>
+</ul>
+
+<h2>Lista de Definições</h2>
+<dl>
+  <dt>Html</dt>
+  <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+  <dt>Css</dt>
+  <dd>Linguagem de marcação para a criação do design de um site.</dd>
+</dl>
+
+<h2>Usando links externos</h2>
+<p> Você pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external"> canal gratuito no Youtube</a> <!--o site será aberto em outra aba devido a tag target e rel-->
+</a></p>
+<h2>Links para downloads</h2>
+<ul>
+  <li> <a href="Livro/EDITAL nº 4874 - Concurso_01_2019 - HU-UFS - LISTA NACIONAL.pdf" type="application/pdf">  Baixar livro em pdf</a></li>
+  <li><a href="Livro/Edital.zip" type="application/zip"> Livro compactado em zip</a></li>
+</ul>
+
+<h2>Imagem Dinâmica</h2>
+<p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+<picture>
+  <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+  <source media="(max-width:1000px)" srcset="imagens/m.png" type="image/png">
+  <img src="Imagens/Sem título.png" alt="Imagem Flexivel">
+</picture>
+
+<h2>Reproduzindo audio</h2>
+<p>Vamos reproduzir áudios em Html5.</p>
+<audio src="midia/My Dog Is Happy - Reed Mathis.mp3" controls autoplay></audio>
+
+<p>Segunda forma para adicionar audio</p>
+<audio preload="auto" autoplay controls></audio>
+<source src="midia/My Dog Is Happy - Reed Mathis.mp3" type="audio/mpeg">
+<source src="midia/My Dog Is Happy - Reed Mathis.mp3" type="audio/ogg">
+<source src="midia/My Dog Is Happy - Reed Mathis.mp3" type="audio/wav">
+
+<h2>Video hospedado localmente</h2>
+<p>Este video está no meu prorpio servidor</p>
+<video width="500" poster="midia/meuvideo.mp4" controls> </video> 
+
+<h2>Inserindo videos do youtube</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</html>
