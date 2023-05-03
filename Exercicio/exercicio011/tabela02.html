@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Colgroup</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tr.destaque{
+            background-color: chartreuse;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta dolore earum eos vero dicta officiis, consequuntur accusantium sequi a numquam iusto ex illo quis eaque doloribus iste officia animi aliquam.</p>
+
+    <table>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <TD>24</TD>
+            <td>Professor</td>
+        </tr>
+
+        <tr class="destaque">
+            <td>Vitor</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Engenheiro</td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
